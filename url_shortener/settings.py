@@ -27,7 +27,7 @@ SECRET_KEY = 'faweoif2f90j2ionwjdcsnxwef12r0129cjhen1x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = "True"
 
-ALLOWED_HOSTS = ['localhost', 'myurlshortener1.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
