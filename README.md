@@ -1,7 +1,7 @@
 
 # URL Shortener App
 
-A Django URL Shortener App created with Django 3.0 and Python 3.8 to shorten any URL given. This project is made to learn Django.
+A Django URL Shortener App created with Django 3.0 and Python 3.10 to shorten any URL given. This project is made to learn Django.
 
 ## How to Setup in Localhost
 
