@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = 'faweoif2f90j2ionwjdcsnxwef12r0129cjhen1x'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = "True"
+DEBUG = "False"
 
 ALLOWED_HOSTS = ['*']
 
@@ -128,5 +128,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
-django_heroku.settings(locals())
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+
+
